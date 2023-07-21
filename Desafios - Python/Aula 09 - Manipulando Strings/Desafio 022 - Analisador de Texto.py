@@ -1,0 +1,10 @@
+n = input('\n Digite seu nome: ')
+M = n.upper()
+m = n.lower()
+L = len(''.join(n.split()))
+l = n.split()
+
+print(M)
+print(m)
+print(f'Seu nome completo tem {L} caracteres.')
+print(f'O seu primeiro nome tem {len(l[0])} caracteres.')

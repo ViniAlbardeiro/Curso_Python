@@ -1,7 +1,7 @@
 numList = []
 
 while True:
-    n = int(input(' Digite um número: '))
+    n = int(input('\n Digite um número: '))
     if n in numList:
         print(' Valor já digitado. Digite outro...')
     else:

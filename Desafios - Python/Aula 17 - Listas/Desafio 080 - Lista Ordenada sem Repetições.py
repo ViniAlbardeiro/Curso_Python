@@ -11,7 +11,7 @@ for c in range(0, 5):
             c = len(numList)
             numList.append(num)
         else:
-            numList.insert()
+            numList.insert(1, num)
 
 
     if len(numList) in (1, 2):

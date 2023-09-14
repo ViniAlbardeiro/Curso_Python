@@ -14,7 +14,6 @@ for jogada in jogadores.keys():
     print(f'     O {jogada} sorteou {jogadores[jogada]}')
     sleep(2)
 print('\n                 Ranking Dos Jogadores\n')
-
 for n in range(0, len(jogadores)):
     for player, points in jogadores.items():
         if orderedPlays[n] == points:

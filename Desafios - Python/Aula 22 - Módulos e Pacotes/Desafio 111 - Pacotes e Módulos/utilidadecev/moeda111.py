@@ -48,14 +48,14 @@ def resumo(n, taxa_aum, taxa_red):
     metade = metade(n, True)
     aumento = aumento(n, taxa_aum, True)
     reducao = reducao(n, taxa_red, True)
-    ljustvar = 50
+    ljustvar = 40
     rjustvar = 10
 
     return print("", '-' * 40 + '\n',
                  'RESUMO'.center(40)+'\n',
                  '-' * 40,
-                 f"\n Valor Analisado:".ljust(ljustvar, '.') + f"{valor}",
-                 f'\n Seu dobro:'.ljust(ljustvar, '.') + f'{dobro}',
-                 f'\n Sua metade:'.ljust(ljustvar, '.') + f'{metade}',
-                 f'\n Aumento de {taxa_aum}%:'.ljust(ljustvar, '.') + f'{aumento}',
-                 f'\n Redução de {taxa_red}%:'.ljust(ljustvar, '.') + f'{reducao}')
+                 "\nValor Analisado".ljust(ljustvar) + f"{valor}",
+                 '\nSeu dobro'.ljust(ljustvar) + f'{dobro}',
+                 '\nSua metade'.ljust(ljustvar) + f'{metade}',
+                 f'\nAumento de {taxa_aum}%'.ljust(ljustvar) + f'{aumento}',
+                 f'\nRedução de {taxa_red}%'.ljust(ljustvar) + f'{reducao}')
